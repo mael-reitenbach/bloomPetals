@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Chez BloomPetals, nous croyons que chaque célébration mérite d'être parée de la beauté
+naturelle des fleurs. Nous sommes une entreprise passionnée et créative spécialisée dans
+la confection de magnifiques bouquets floraux pour embellir vos événements spéciaux. Que
+ce soit un mariage, un anniversaire, une réception ou toute autre occasion festive, nos
+artisans floraux talentueux travaillent avec dévouement pour créer des arrangements
+uniques et époustouflants qui émerveilleront vos invités.">
+        <title>BloomPetals</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <nav class="navibar">
+                <h2><a href="index.html">Home</a></h2>
+                <h2><a href="enterprise.html">Enterprise</a></h2>
+                <h2><a href="realisations.html">Réalisations</a></h2>
+                <h2><a href="contact.html">Contact</a></h2>
+            </nav>
+                <h1 class="logo">BloomPetals</h1>
+        </header>
+        <h2 class="text" >Formulaire de contact</h1>
+        <div class="formulaire" >
+        <form action="#" method="post">
+
+            <label for="civilite">Civilité:</label>
+            <select id="civilite" name="civilite">
+                <option value="Monsieur">Monsieur</option>
+                <option value="Madame">Madame</option>
+                <option value="Autre">Autre</option>
+            </select>
+            <br>
+        
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" name="nom" required>
+            <br>
+        
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <br>
+        
+            <label for="adresse">Adresse:</label>
+            <textarea id="adresse" name="adresse" rows="2" required></textarea>
+            <br>
+        
+            <input type="checkbox" id="politique" name="politique" required>
+            <label for="politique">J'accepte les politiques de confidentialité de l'entreprise.</label>
+            <br>
+        
+            <input type="submit" value="Valider">
+        
+        </form>
+    </div>
+    </body>
+</html>        

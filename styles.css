@@ -1,0 +1,71 @@
+.navibar {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#a78ba9;
+}
+
+.logo {
+    display : flex;
+    justify-content: center;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.photofleurs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.photofleurs img {
+    width: 30%; 
+    border: 2px solid #ffffff; 
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.membres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center
+}
+
+.membres img {
+    width: 10%; 
+    border: 2px solid #ffffff; 
+    border-radius: 15px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-top: 40px;
+}
+
+.membres p {
+    text-align: center
+}
+
+.formulaire {
+    display: flex;
+    justify-content: center;
+}
+
+* {
+    font: verdana;
+}
+
+.text {
+    text-align: center
+}
